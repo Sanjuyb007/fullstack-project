@@ -11,6 +11,11 @@ router.get('/products', productController.getAllProducts)
 .put('/products', productController.replaceProduct)
 .patch('/products', productController.updateProduct)
 .get('/something', productController.doSomething)
-
+// router.get('/', productController.getAllProducts)
+// .get('/:pid', productController.getProduct)
+// .post('/', productController.createProduct)
+// .delete('/:pid', productController.deleteProduct)
+// .put('/', productController.replaceProduct)
+// .patch('/', productController.updateProduct)
 
 exports.router = router
